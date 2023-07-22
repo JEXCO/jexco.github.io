@@ -1,7 +1,6 @@
 html,body,pre,form,input {
     font-family: 'Yu Gothic UI','ヒラギノ角ゴシック','Hiragino Sans','Osaka',YuGothic,'Yu Gothic','Arial','Avenir','メイリオ', Meiryo,'Meiryo UI','Ebrima',sans-serif;
-    text-align: center;
-    }
+}
 .container {
     width: 100%;
     margin: 0 auto;
@@ -18,8 +17,6 @@ html,body,pre,form,input {
     padding: 10px;
 }
 .side-sp {
-    /*position: fixed;
-    bottom: 0;*/
     background-color: #ededed;
 }
 pre {
@@ -84,4 +81,7 @@ font-size:0.6em;margin-left:2em;
 a {
 	color:blue;
 	text-decoration:none;
+}
+body {
+    text-align: center;
 }
