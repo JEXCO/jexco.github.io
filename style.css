@@ -2,37 +2,37 @@ html,body,pre,form,input {
     font-family: 'Yu Gothic UI','ヒラギノ角ゴシック','Hiragino Sans','Osaka',YuGothic,'Yu Gothic','Arial','Avenir','メイリオ', Meiryo,'Meiryo UI','Ebrima',sans-serif;
     text-align: center;
     }
-  .container {
+.container {
     width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    }
-    .main {
+}
+.main {
     width: 65%;
     padding: 10px;
-    }
-    .side {
+}
+.side {
     background-color: #ededed;
     width: 35%;
     padding: 10px;
-    }
-    .side-sp {
+}
+.side-sp {
     /*position: fixed;
     bottom: 0;*/
     background-color: #ededed;
-    }
-  pre {
+}
+pre {
       font-size: 12.5px;
-  }
-  #pc { display:block; }
-  #sp { display:none; }
+}
+#pc { display:block; }
+#sp { display:none; }
   
-  @media only screen and (max-width : 767px){
+@media only screen and (max-width : 767px){
     #pc { display:none; }
     #sp { display:block; }
-  }
-  input[type="search"] {
+}
+input[type="search"] {
     border: 0;
     background-color: silver;
     border-radius: 30px;
