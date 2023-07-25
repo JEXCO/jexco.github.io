@@ -85,3 +85,6 @@ a {
 body {
     text-align: center;
 }
+nav,ul,li {
+    text-align: left;
+}
