@@ -1,6 +1,6 @@
 const loader = document.getElementById('js-loader');
 window.addEventListener('load', () => {
-  const ms = 400;
+  const ms = 200;
   loader.style.transition = 'opacity ' + ms + 'ms';
   
   const loaderOpacity = function(){
